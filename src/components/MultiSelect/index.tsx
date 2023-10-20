@@ -1,4 +1,4 @@
-import { Box, Divider, Flex, Heading, Image, Spacer, VStack } from "@chakra-ui/react";
+import { Box, Divider, Flex, Heading, Image, Progress, Spacer, Stack, VStack } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import MultiSelectReactClassiqe from "./MultiSelectReactClassiqe";
 import MultiSelectMenuChakra from "./MultiSelectMenuChakra";
