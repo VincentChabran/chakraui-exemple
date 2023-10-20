@@ -44,7 +44,7 @@ function App() {
                   <Progress colorScheme="red" size="sm" value={50} borderRadius={"20"} />
                   {/* <Progress colorScheme="green" size="sm" value={40} borderRadius={"20"} /> */}
                   <Progress colorScheme="green" size="sm" value={90} borderRadius={"20"} />
-                  <Progress colorScheme="green" size="sm" value={44} borderRadius={"20"} />
+                  {/* <Progress colorScheme="green" size="sm" value={44} borderRadius={"20"} /> */}
                </Stack>
             </VStack>
          </Flex>
