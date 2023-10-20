@@ -1,4 +1,4 @@
-import { Box, Divider, Flex, Heading, VStack, useColorModeValue } from "@chakra-ui/react";
+import { Box, Divider, Flex, Heading, Progress, Stack, VStack, useColorModeValue } from "@chakra-ui/react";
 import { ButtonColorModoSwitcher } from "./components/global/ButtonColorModoSwitcher";
 import TextFile from "./components/TextFile";
 import InputFile from "./components/InputFile";
@@ -38,6 +38,14 @@ function App() {
                <MultiSelectFile />
 
                <TableauFile />
+
+               <Stack spacing={1} h="100px" w="100vw">
+                  <Progress colorScheme="green" size="sm" value={60} borderRadius={"20"} />
+                  <Progress colorScheme="green" size="sm" value={50} borderRadius={"20"} />
+                  <Progress colorScheme="green" size="sm" value={40} borderRadius={"20"} />
+                  <Progress colorScheme="green" size="sm" value={90} borderRadius={"20"} />
+                  <Progress colorScheme="green" size="sm" value={44} borderRadius={"20"} />
+               </Stack>
             </VStack>
          </Flex>
       </Box>
